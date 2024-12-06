@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  #error {
+    color: red;
+    font-size: 0.9em;
+  }
+  .task {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .task.completed {
+    text-decoration: line-through;
+  }
+  button {
+    margin-left: 10px;
+  }
